@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "simes-app",
+    "slug": "simes-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/LOGO_SIMES_preto.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/LOGO_SIMES_preto.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/LOGO_SIMES_preto.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.heitordomingos.simesapp"
+    },
+    "web": {
+      "favicon": "./src/assets/LOGO_SIMES_preto.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2cd93388-ae9d-4c2f-897e-60f5fe2b541e"
+      }
+    }
+  }
+}
